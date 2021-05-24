@@ -1,0 +1,25 @@
+
+.t-st{
+text-align: center; 
+margin-left: 25%;
+}
+
+
+.inpt{
+width: 50%;
+}
+
+.fc-content{
+text-align: center;
+}
+.fc-time{
+font-size: 10px;
+}
+.fc-title{
+margin-right: 30px;
+font-size: 60px;
+}
+
+.list-cliente {
+overflow: auto;
+}

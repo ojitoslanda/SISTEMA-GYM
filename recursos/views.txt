@@ -1,0 +1,241 @@
+
+****************** Requerimientos Funcionales **************
+   - Cpanel (Reporte de Hoy)
+      ✅ Clientes totales  
+      ✅ Clientes pagados 
+      ✅ Clientes no pagado
+      ✅ Clientes estrellas
+      ✅ Precios de Rutina
+      ✅ Tipos
+      ✅ productos mas vendidos
+   - Cpanel (Reporte de vencimiento clientes *Semanal,Quincenal,Mensual* )
+      ✅ Semanal
+      ✅ Quincenal
+      ✅ Mensual
+
+******************** Registrar una persona  ****************  ❌✅
+   - Diario    
+      SIN PAGAR         
+      ✅  1. Nombre: Juan , Sin pagar, Solo baile, Sin privilegios, Sin productos      
+      ✅  2. Nombre: Juan Luis , Sin pagar, Solo Maquina, Sin privilegios, Sin productos   
+      ✅  3. Nombre: Juan Jose , Sin pagar, Maquina + Baile (2soles), Sin privilegios, Sin productos   
+
+      ✅  4. Nombre: Santiago , Sin pagar, Solo Baile, Sin privilegios, Con productos  
+      ✅  5. Nombre: Santiago Augusto , Sin pagar, Solo Maquina, Sin privilegios, Con productos  
+      ✅  6. Nombre: Santiago Gabriel , Sin pagar, Maquina + Baile (2sol), Sin privilegios, Con productos 
+
+      ✅  7. Nombre: Omar	 , Sin pagar, Solo Baile, Descuento en rutina (1sol), Sin productos 
+      ✅  8. Nombre: Omar david , Sin pagar, Solo Maquina, Descuento en rutina (1sol), Sin productos 
+      ✅  9. Nombre: Omar Gabriel , Sin pagar, Maquina + Baile (2soles), Descuento en rutina (1sol)1, Sin productos 
+
+      ✅ 10. Nombre: Gabriel Ojitos, Sin pagar, Solo Baile, Descuento en rutina (1sol) + productos (1sol), Con productos
+      ✅ 11. Nombre: Gabriel Andre , Sin pagar, Solo Maquina, Descuento en rutina(1sol) + productos(1sol), Con productos
+      ✅ 12. Nombre: Gabriel Quispe , Sin pagar, Maquina + Baile (2soles), Descuento en rutina(1sol) + productos(1sol), Con productos
+      
+      PAGADO
+      13. Nombre: Juan , Pagado, Solo baile, Sin privilegios, Sin productos
+      14. Nombre: Juan , Pagado, Solo Maquina, Sin privilegios, Sin productos
+      15. Nombre: Juan , Sin pagar, Maquina + Baile (2soles), Sin privilegios, Sin productos
+
+      16. Nombre: Juan , Pagado, Solo Baile, Sin privilegios, Con productos
+      17. Nombre: Juan , Pagado, Solo Maquina, Sin privilegios, Con productos
+      18. Nombre: Juan , Sin pagar, Maquina + Baile (2soles), Sin privilegios, Con productos
+
+      19. Nombre: Juan , Pagado, Solo Baile, Descuento en rutina, Sin productos
+      20. Nombre: Juan , Pagado, Solo Maquina, Descuento en rutina, Sin productos
+      21. Nombre: Juan , Pagado, Maquina + Baile (2soles), Descuento en rutina, Sin productos
+
+      22. Nombre: Juan , Pagado, Solo Baile, Descuento en rutina + productos, Con productos
+      23. Nombre: Juan , Pagado, Solo Maquina, Descuento en rutina + productos, Con productos
+      24. Nombre: Juan , Pagado, Maquina + Baile (2soles), Descuento en rutina + productos, Con productos
+
+      . Cliente estrella
+
+   -- Semanal
+
+   -- Quincenal
+
+   -- mensual
+
+   -- tantos x dias
+      . rutinas de 3 dias
+      . cliente que viene el dia de mañana, registrar automaticamente si ya se encuentra registrado
+
+
+************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Cpanel-Clientes 
+   - Que salga las personas que pagaron por tantos dias  <!--- //(Completado)  --->
+   - Cantidad de dias (restar) con el calendario de las fechas <!--- //(Completado)  --->
+
+* Reporte de tantos dias y que salga en el historial de cliente <!--- //(Completado)  --->
+
+
+* Ingresar datos y mostrar en reporte todo en clientes cuando una persona pago x dias <!--- //(Completado)  --->
+
+
+* Poner en Dias (Registro de cliente) el dato correcto en el input con un disabled (PagoXDias)  <!--- //(Completado)  --->
+
+# Si el cliente existe, automaticamente te debe salir los datos, y cuando registre solo mandas la fecha del dia que asiste el cliente hoy y lo guarda en el calendario con la fecha correspondiente.  <!--- //(Completado)  --->
+
+* A la hora de descubrir si el cliente exitio automaticamente que se actualize en la table cliente su fecha para que salga automaticamente en el dia de Hoy en las consultas de web   <!--- //(Completado)  ---> 
+
+* los ingresos y egresos ver tambien si cuandran con los datos igual que los demas sumas 
+
+
+# Modulo Historial Clientes
+   * Cuando es cliente estrella no cobrar rutina - Valor 0, pero si cobrar lo que son productos  <!--- //(Completado)  --->
+      
+# Modulo cpanel-cliente
+   * Consultar y mostrar en una tabla los clientes estrellas <!--- //(Completado)  --->
+   * Consultar y mostrar en una tabla todos los clientes <!--- //(Completado)  --->
+         - Pagado y no Pagado                            <!--- //(Completado)  --->
+         - Clientes diario, semanal, quincenal, mensual  <!--- //(Completado)  --->
+         - Clientes estrellas                            <!--- //(Completado)  --->
+         - Solo mostrar los registro del dia de hoy      <!--- //(Completado)  --->
+ 
+
+# Modulo Registar cliente
+
+# Modulo Registar producto
+   * Agregar un boton de salir en la parte de abajo. <!--- //(Completado)  --->
+
+# Modulo de Incio / Panel Principal
+
+# Modulo de Consultas
+   * Fecha desde y hasta  <!--- //(Completado)  --->
+   * Clientes <!--- //(Completado)  --->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+************************************* TERMINADO  ****************************************
+
+*Reportes de Hoy
+*Reporte y Calcular el total del mes/quincenal/mensual
+*Un aviso en los cajas en la parte de abajo, donde te dice cuanto es la fecha de vencimiento de las personas que pagaron
+ (MENSUAL,SEMANALQUINCENAL).
+ REPORTE Y REGISTRO DE EXTRA
+UNA REPORTE SEMANAL,-DIA- (DE LUNAS A SABADO) CALCULAR EL TOTAL DE TODAS LA GANACIAS DE LA SEMANA Y  (INGRESOS E EGRESOS)
+IMPRESION DE LAS TABLAS
+*Actualizar cliente en reporte
+
+
+
+Privilegios
+Usuario: Solo registrar
+Admin: Todo los campos
+
+
+
+
+
+
+
+
+
+
+
+(Terminado)
+*Registro de Usuario
+*MODIFICAR USUARIO/ (DATOS Y TAMBIEN LA IMAGEN)
+
+*Que actulize el pago diario de las personas pasando el dia siguiente 24 horas
+*Eliminar un cliente, sin que se elimine de la base de datos (DIARIO-SEMANAL-QUINCENAL-MENSUAL)
+
+
+REGISTRO CLIENTE
+   *DIARIO 		###-/* X */
+   SEMANAL ###-/* X */
+   QUINCENAL###-/* X */
+   MENSUAL###-/* X */
+
+
+
+MODIFICAR CLIENTE - DELETE CLIENTE
+*Actualizar/modificar datos del cliente.
+
+
+
+*Index modificar
+*Buscar fecha desde y hasta
+*Consulta de Clientes 
+
+
+*QUE CUANDO REGISTRAR UNA IMAGEN EN (MODIFICAR-REGISTRO USUARIO), CUANDO MANDA LA MISMA IMAGEN NO SE GUARDA EN LA BASE DE DATOS TENGO QUE PONER UNA CONDIFICONAL SI LA IMAGEN IF ELSE
+*Cuantas personas ingresaron Diario (SUMAR TODO EL REGISTRO)
+
+
+
+--------CAJAS SUPERIORES DE INCIIO
+1. Total personas Diarias,mensual,semanal,quincenal Registradas
+2. total de cada tipo de pago, persona ingreando Ahora
+3. Suplementos,proteinas,vendidas , ¿Cuantos
+4. Usuarios Registrados
+
+
+

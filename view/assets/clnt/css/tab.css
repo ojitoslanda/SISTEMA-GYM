@@ -1,0 +1,84 @@
+
+
+/* Up to Landskape Phone
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (max-width: 480px) {
+	
+	.t-st{
+	text-align: center; 
+	margin-right: 40000px;
+		}
+
+	
+  
+
+ }
+
+/* Large Desktop
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (min-width: 1200px) {
+
+	.li-normal{
+		margin-right: 36%;
+	}
+  
+}
+/* Defaul Desktop
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (min-width: 980px) {
+  	.li-normal{
+		margin-right: 30%;
+	}
+  
+}
+/* Laptop
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (max-width: 1020px) {
+
+}
+/* Tablets
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (max-width: 980px) {
+  
+}
+@media (max-width: 960px) {
+  
+  }
+/* Landskape Phone to Small Desktop & Portrait Tablet  ----> 
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (max-width: 767px) {
+
+}
+@media (max-width: 640px) {
+
+  	.li-normal{
+		margin-right: 0%;
+	}
+	
+
+	.t-st{
+	text-align: center; 
+	margin-right: 30%;
+		}
+	
+}
+
+
+
+
+
+/* Up to Portrait Phone
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+@media (max-width: 420px) {
+
+
+	.t-st{
+	text-align: center; 
+	margin-right: 40%;
+}
+
+
+}
+@media (max-width: 380px) {
+	
+}

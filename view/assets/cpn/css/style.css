@@ -1,0 +1,69 @@
+
+
+form {
+  background: #fff;
+  padding: 5em 5em 2em;
+  width: 700px;
+  box-shadow: 0 0 1em #222;
+  border-radius: 20px;
+  margin: 3px 3px;
+
+
+
+}
+form h3 {
+  margin: 0 0 50px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #666666;
+  border-bottom: solid 1px #e5e5e5;
+}
+form p {
+  margin: 0 0 3em 0;
+  position: relative;
+}
+
+table tr td{
+font-family: Bookman Old Style;
+
+}
+
+form input[type="submit"]{
+
+
+  background: #2c7540;
+  color: #fff;
+  border:none;
+    font-family: Arial;
+      font-size:20px;
+      width: 120px;
+      height: 40px;
+      border-radius: 12px;
+}
+
+form input[type="submit"]:hover {
+
+  background: #59a56e;
+  cursor:pointer;
+}
+
+form input[type="reset"]{
+
+
+  background:  #2c7540;
+  color: #fff;
+  border:none;
+  font-family: Arial;
+  font-size:20px;
+  width: 120px;
+  border-style: 30px;
+  height: 40px;
+  border-radius: 12px;
+}
+
+form input[type="reset"]:hover {
+
+  background: #59a56e;
+  cursor:pointer;
+}

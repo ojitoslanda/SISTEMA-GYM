@@ -1,0 +1,58 @@
+@media (max-width:480px){
+    .cajaReporte{
+        max-width: 25rem !important;
+    }
+    .btnCpanelCliente{
+        font-size: 13.6px;
+    }
+    .divCpanelCliente{
+        margin-right: 1rem !important;
+        margin-top: 0 !important;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        
+    }
+    .navlink_cpanelcliente{
+        padding: 10px 10px 0px 10px;
+    }
+
+    /*Historial del Cliente */
+    #btn_m_a{
+        margin-top: 20px;
+    }
+
+
+    .fc-scroller, .fc-day-grid-container{
+        height: 380px !important;
+    }
+
+    .fc-time{
+        display: none;
+    }
+    .fc-title{
+        font-size: 25px;
+        margin-right: 0%;
+    }
+
+}
+    .divCpanelCliente{
+        margin-top: -59px;
+        margin-right: 10px;
+    }
+
+.divIngresos, .divConsultarUsuarioReporte, .reGananciasMensuales{
+    height: auto;
+    overflow: auto;
+  }
+
+.SemanalQuincenalDiv{
+    height: auto;
+    overflow: auto;
+}
+
+.flexdatalist-results span:not(:first-child):not(.highlight) {
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 80%;
+    color: rgba(0, 0, 0, 0.50);
+}
